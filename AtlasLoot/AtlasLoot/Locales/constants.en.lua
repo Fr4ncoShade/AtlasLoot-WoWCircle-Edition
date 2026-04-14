@@ -306,6 +306,7 @@ if AL then
 	AL["Enchant Shield"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
+	AL["Illusions Weapon"] = true;
 
 	-- Engineering
 	AL["Ammunition"] = true;
@@ -427,6 +428,7 @@ if AL then
 	AL["Low Level"] = true;
 	AL["High Level"] = true;
 	AL["Available in 25-man only"] = true;
+
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = true;

@@ -305,6 +305,7 @@ if AL then
     AL["Enchant Shield"] = "Чары для щита";
     AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
     AL["Enchant Weapon"] = "Чары для оружия";
+	AL["Illusions Weapon"] = "Иллюзии для оружия";
 	
 	-- Engineering
 	AL["Ammunition"] = "Боеприпасы";
