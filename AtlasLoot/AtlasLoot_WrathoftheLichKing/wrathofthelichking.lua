@@ -12011,3 +12011,110 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "EmblemofFrost";
 		Back = "SETMENU";
 	};
+	
+	---------------------------------
+	AtlasLoot_Data["EmblemofWoWCoin3"] = {
+		{ 1, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
+		{ 2, 34158, "", "=q1=Team A Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
+		{ 3, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#, 8 #eofwowcoin#" };
+		{ 4, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=ds=#s7#, 8 #eofwowcoin#" };
+		{ 5, 23388, "", "=q3=23388", "=ds=#s7#, 130 #eofwowcoin#" };
+		{ 6, 33227, "", "=q3=33227", "=ds=#s7#, 130 #eofwowcoin#" };
+		{ 7, 56990, "", "=q3=Valeera's Tabard", "=ds=#s7#, 210 #eofwowcoin#" };
+		{ 9, 21421, "", "=q3=Scarab Tattoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 10, 21422, "", "=q3=Lich Tatoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 11, 24527, "", "=q3=Unknown Symbol Tattoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 12, 25546, "", "=q3=Animal Pain Tattoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 13, 26066, "", "=q3=Attentive Eye Tattoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 14, 20775, "", "=q3=Brown Small Tattoo of Hakkar", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 15, 20529, "", "=q3=Brown Full Tattoo of Hakkar", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 16, 21420, "", "=q3=White Full Zandalarian Tattoo", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 17, 26058, "", "=q3=Gigolo Shirt", "=ds=#s6#, 130 #eofwowcoin#" };
+		{ 18, 3527, "", "=q3=Shirt of Sylvanas Windrunner", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 19, 4190, "", "=q3=Assassin's Shirt", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 20, 97, "", "=q3=Tyrande's Whisperwind Robe", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 21, 20136, "", "=q3=Quetzal Tattoo", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 22, 20240, "", "=q3=Stripper shirt", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 23, 20282, "", "=q3=White Full Tattoo of Loa", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 24, 20323, "", "=q3=Ancient Gladiator's Belt", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 25, 19926, "", "=q3=Blue Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 26, 19847, "", "=q3=Blue Full Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 27, 20274, "", "=q3=Black Small Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 28, 20309, "", "=q3=Blue Small Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
+		{ 29, 56989, "", "=q3=Valeera's Shirt", "=ds=#s6#, 210 #eofwowcoin#" };
+
+		--Prev = "EmblemofHeroism";
+		Next = "EmblemofWoWCoin4";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+	
+	
+	AtlasLoot_Data["EmblemofWoWCoin4"] = {
+		{ 1, 27853, "", "=q4=Reins of the Battle Raptor", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 2, 43957, "", "=q4=Reins of the Mini Elephant", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 3, 20221, "", "=q5=Foror's Fabled Steed", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 4, 46891, "", "=q4=Reins of the Swift Purple Spectral Tiger", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 5, 49659, "", "=q4=Reins of the Risen Gryphon", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 6, 28289, "", "=q4=Reins of the Har'koa", "=ds=#e12#", "40 #eofwowcoin#" };
+		
+		--Prev = "EmblemofHeroism";
+		Next = "EmblemofWoWCoin5";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoin5"] = {
+		{ 1, 49664, "", "=q3=Enchanted Purple Jade", "=ds=#e13#", "8 #eofwowcoin#" };
+		{ 2, 46894, "", "=q3=Enchanted Jade", "=ds=#e13#", "8 #eofwowcoin#" };
+		{ 3, 38612, "", "=q4=Snowy Owl", "=ds=#e13#", "90 #eofwowcoin#" };
+		
+		Prev = "EmblemofWoWCoin4";
+		Next = "EmblemofWoWCoin6";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+	
+	
+	AtlasLoot_Data["EmblemofWoWCoin6"] = {
+		{ 1, 56922, "inv_scroll_03", "=q3=Weapon Illusion - Frostbrand", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 2, 56921, "inv_scroll_03", "=q3=Weapon Illusion - Flametongue", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 3, 56928, "inv_scroll_03", "=q3=Weapon Illusion - Healing", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 4, 56927, "inv_scroll_03", "=q3=Weapon Illusion - Dancing Rune Weapon", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 5, 56926, "inv_scroll_03", "=q3=Weapon Illusion - Powerful Feedback", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 6, 38952, "inv_scroll_03", "=q3=Weapon Illusion - Total Invisibility", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 7, 56920, "inv_scroll_03", "=q3=Weapon Illusion - Sharpened", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 16, 56919, "inv_scroll_03", "=q3=Weapon Illusion - Frost Oil", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 17, 56918, "inv_scroll_03", "=q3=Weapon Illusion - Poison", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 18, 56917, "inv_scroll_03", "=q3=Weapon Illusion - Rune of Razorice", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 19, 56925, "inv_scroll_03", "=q3=Weapon Illusion - Consecrated Weapon", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 20, 56924, "inv_scroll_03", "=q3=Weapon Illusion - Windfury", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 21, 56923, "inv_scroll_03", "=q3=Weapon Illusion - Rockbiter", "=ds=#ud44#", "8 #eofwowcoin#" };
+
+	
+		Prev = "EmblemofWoWCoin5";
+		Next = "EmblemofWoWCoin7";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoin7"] = {
+		{ 1, 54218, "", "=q1=Landro's Gift Box", "=ds=#ud44#", "20 #eofwowcoin#" };
+		{ 2, 45705, "", "=q3=Argent Tournament Invitation", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 3, 44866, "", "=q3=Brazie's Gnomish Pleasure Device", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 4, 40110, "", "=q1=Haunted Memento", "=ds=#ud44#", "8 #eofwowcoin#" };
+		
+		{ 6, 49917, "", "=q2=Brazie's Gnomish Pleasure Device", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 7, 52541, "", "=q1=Radiageigatron", "=ds=#ud44#", "8 #eofwowcoin#" };
+		{ 8, 41131, "", "=q1=Rageclaw Fire Extinguisher", "=ds=#ud44#", "8 #eofwowcoin#" };
+		
+		{ 16, 45047, "", "=q3=Sandbox Tiger", "=ds=#ud34#", "8 #eofwowcoin#" };
+		{ 17, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds=#ud30#", "8 #eofwowcoin#" };
+		{ 18, 54455, "", "=q1=Paint Bomb", "=ds=#ud50#", "8 #eofwowcoin#" };
+		{ 19, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds=#ud20#", "8 #eofwowcoin#" };
+				
+		{ 21, 46779, "", "=q1=Path of Cenarius", "=ds=#ud36#", "8 #eofwowcoin#" };
+		{ 22, 38233, "", "=q1=Path of Illidan", "=ds=#ud24#", "8 #eofwowcoin#" };
+		{ 23, 33081, "", "=q1=Voodoo Skull", "=ds=#ud44#", "8 #eofwowcoin#" };
+		
+	
+		Prev = "EmblemofWoWCoin6";
+		--Next = "EmblemofFrost2";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
