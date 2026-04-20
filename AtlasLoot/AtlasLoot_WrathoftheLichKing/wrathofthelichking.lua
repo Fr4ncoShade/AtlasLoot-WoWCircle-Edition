@@ -12013,6 +12013,50 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 	---------------------------------
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Cloth"] = {
+		{ 1, 3059, "", "=q4=", "=ds=#s1#, #a1#", "200 #eofwowcoin#" };
+		{ 2, 2655, "", "=q4=Windchaser's Shoulders", "=ds=#s3#, #a1#", "200 #eofwowcoin#" };
+		{ 3, 12187, "", "=q4=Windchaser's Embrace", "=ds=#s5#, #a1#", "200 #eofwowcoin#" };
+		{ 4, 3540, "", "=q4=Windchaser's Sarong", "=ds=#s11#, #a1#", "200 #eofwowcoin#" };
+		{ 5, 3896, "", "=q4=Windchaser's Slippers", "=ds=#s12#, #a1#", "200 #eofwowcoin#" };
+		
+		{ 7, 1279, "", "=q4=Tyrande's Whisperwind Hoop", "=ds=#s1#, #a1#", "200 #eofwowcoin#" };
+		{ 8, 3544, "", "=q4=Tyrande's Whisperwind Gloves", "=ds=#s9#, #a1#", "200 #eofwowcoin#" };
+		
+		{ 16, 1545, "", "=q4=Shoulders of Illidari High Lord", "=ds=#s3#, #a1#", "200 #eofwowcoin#" };
+		{ 17, 3538, "", "=q4=Embrace of Illidari High Lord", "=ds=#s5#, #a1#", "200 #eofwowcoin#" };
+		{ 18, 5295, "", "=q4=Gloves of Illidari High Lord", "=ds=#s9#, #a1#", "200 #eofwowcoin#" };
+		{ 19, 3523, "", "=q4=Longji of Illidari High Lord", "=ds=#s11#, #a1#", "200 #eofwowcoin#" };
+		{ 20, 3533, "", "=q4=Slippers of Illidari High Lord", "=ds=#s12#, #a1#", "200 #eofwowcoin#" };
+	
+		--Prev = "EmblemofHeroism";
+		Next = "EmblemofWoWCoinArmor_Leather";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
+	
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Leather"] = {
+		{ 1, 10006, "", "=q4=Assassin's Embrace", "=ds=#s5#, #a2#", "200 #eofwowcoin#" };
+		{ 2, 2647, "", "=q4=Assassin's Shoulders", "=ds=#s3#, #a2#", "200 #eofwowcoin#" };
+		{ 3, 3539, "", "=q4=Assassin's Leggings", "=ds=#s11#, #a2#", "200 #eofwowcoin#" };
+
+		
+		Prev = "EmblemofWoWCoinArmor_Cloth";
+		--Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Back"] = {
+		{ 1, 53475, "", "=q1=Cloak of the Stormwind", "=ds=#s4#", "30 #eofwowcoin#" };
+		{ 2, 53473, "", "=q1=53473", "=ds=#s4#", "30 #eofwowcoin#" };
+		
+
+		
+		--Prev = "EmblemofHeroism";
+		Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
 	AtlasLoot_Data["EmblemofWoWCoin3"] = {
 		{ 1, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
 		{ 2, 34158, "", "=q1=Team A Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
