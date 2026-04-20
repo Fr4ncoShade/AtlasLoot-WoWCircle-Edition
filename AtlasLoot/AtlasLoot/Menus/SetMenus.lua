@@ -17,6 +17,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
 		{ 12, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
 		{ 13, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
+		
+		{ 14, "EMBLEMOFWOWCOINMENU", "inv_stone_02", "=ds="..AL["Upper Deck Card Game Items"], ""};
+		
 		{ 15, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};
 		{ 17, "SETSMISCMENU", "INV_Sword_43", "=ds="..AL["Misc Sets"], ""};
 		{ 18, "ZGSets1", "INV_Jewelry_Necklace_19", "=ds="..AL["Zul'Gurub Sets"], ""};
@@ -81,6 +84,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Sets"], "=q5="..AL["10/25 Man"]};
 		Back = "SETMENU";
 	};
+	
+	---------------------
+	AtlasLoot_Data["EMBLEMOFWOWCOINMENU"] = {
+		{ 2, "EmblemofWoWCoin4", "inv_stone_02", "=ds="..AL["Mounts"], ""};
+		{ 3, "EmblemofWoWCoin5", "inv_stone_02", "=ds="..AL["Pets"], ""};
+		{ 4, "EmblemofWoWCoin6", "inv_stone_02", "=ds="..AL["Illusions Weapon"], ""};
+		{ 5, "EmblemofWoWCoin7", "inv_stone_02", "=ds="..AL["Misc"], ""};
+		--{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Sets"], "=q5="..AL["10/25 Man"]};
+		Back = "SETMENU";
+	};
+	-----------------------
 
 	AtlasLoot_Data["WORLDEPICS"] = {
 		{ 2, "WorldEpicsWrath1", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
