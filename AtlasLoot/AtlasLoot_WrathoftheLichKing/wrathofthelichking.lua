@@ -12013,6 +12013,137 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 	---------------------------------
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Dagger"] = {
+		{ 1, 32923, "", "=q4=Energy Dagger", "=ds=#h1#", "30 #eofwowcoin#" };
+		{ 2, 45985, "", "=q4=Star Blade", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 16, 43598, "", "=q4=Fiery Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
+		{ 17, 43479, "", "=q4=Isteel Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
+
+		
+		--Prev = "EmblemofWoWCoinArmor_Back";
+		--Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Staff"] = {
+		{ 1, 52033, "", "=q3=Unknow Item", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 2, 39746, "", "=q4=Northrend Staff", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 3, 43014, "", "=q4=43014", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 4, 36869, "", "=q4=36869", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 5, 35714, "", "=q4=35714", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 6, 13722, "", "=q4=Purple Flame Demon Skull Staff", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 7, 33983, "", "=q4=33983", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 8, 34882, "", "=q4=34882", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 16, 39750, "", "=q4=39750", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 17, 43227, "", "=q4=43227", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 18, 35781, "", "=q4=Bright Staff of the Aristocrat", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 19, 41090, "", "=q4=Monster - Zul'Aman - Staff, 2H, Drakuru Prophet", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 20, 43619, "", "=q4=Red Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 21, 43617, "", "=q4=Blue Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 22, 43618, "", "=q4=Green Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 23, 39289, "", "=q4=Staff of Geometry", "=ds=#w9#", "200 #eofwowcoin#" };
+		
+
+		--Prev = "EmblemofWoWCoinArmor_Back";
+		--Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_OHSword1"] = {
+		{ 1, 52034, "", "=q3=Monster - Sword 1H, Icecrown Citadel (Sunfire Enchant)", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 2, 53835, "", "=q4=Shining Vol'jin Glaive", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 3, 39287, "", "=q4=Wavesword", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 4, 32890, "", "=q4=Sword of the Black Temple Advisor", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 5, 33992, "", "=q4=Bloodgaze Blade", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 6, 29414, "", "=q4=Glowing Purple Glaive of the Consortium", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 7, 29438, "", "=q4=Shining White Star", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 8, 29462, "", "=q4=Aquamarine Ripper", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 9, 11019, "", "=q4=Monster - Sword, Horde Jagged Bloody", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 10, 12944, "", "=q4=Monster - Sword, Golden Long", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 11, 13222, "", "=q4=Monster - Sword, Flaming Crimson Battlemage Longsword", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 12, 5953, "", "=q4=TEST SWORD", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 13, 12593, "", "=q4=Monster - Sword, Horde Sword Bronze", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 14, 12971, "", "=q4=JEFF TEST SWORD", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 15, 13718, "", "=q4=Monster - Sword, Horde Jagged Red", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 16, 13719, "", "=q4=Monster - Sword, Horde Jagged Red w/ Low Yellow Glow", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 17, 14883, "", "=q4=Test Glaive A", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 18, 14885, "", "=q4=Lost Legacy", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 19, 14887, "", "=q4=Double Blade", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 20, 14892, "", "=q4=Test Glaive J", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 21, 14085, "", "=q4=Vol'jin Glaive", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 22, 14884, "", "=q4=Test Glaive B", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 23, 14886, "", "=q4=Test Glaive D", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 24, 14889, "", "=q4=First Glaive", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 25, 23673, "", "=q4=Monster - Sword, Lightsaber Blue", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 26, 25816, "", "=q4=Monster - Sword, Legion (2H as 1H)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 27, 27405, "", "=q4=Gray-hilted Blood Knight Blade", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 28, 29405, "", "=q4=Monster - Sword, 1H Blood Elf A01 Gold - Blue Glow", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 29, 29415, "", "=q4=Monster - Glaive - Crystal Scimitar - Ethereal, Consortium (Yellow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 30, 29542, "", "=q4=Monster - Sword, Horde Sword B04 Black (Red Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 31, 25879, "", "=q4=Monster - Sword2H, Doom Walker", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 32, 29403, "", "=q4=Blood Elf Blade", "=ds=#h3#", "130 #eofwowcoin#" };
+		
+		--Prev = "EmblemofWoWCoinArmor_Back";
+		Next = "EmblemofWoWCoinWeapon_OHSword2";
+		Back = "EmblemofWoWCoinWeapon";
+	};		
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_OHSword2"] = {
+		{ 1, 29403, "", "=q4=Blood Elf Blade", "=ds=#h3#", "130 #eofwowcoin#" };		
+		{ 2, 29446, "", "=q4=Monster - Sword, Frost Battlemage Longsword", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 3, 29820, "", "=q4=Monster - Sword - 2H (1H) Crystal C03 - Ethereal, Protectorate (White Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 4, 30147, "", "=q4=Red-hilted Blood Knight Blade", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 5, 30410, "", "=q4=Monster - Sword, Draenei C01 Blue", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 6, 30624, "", "=q4=Monster - Sword, Falchion (Black Glow)", "=ds=#h3#", "150 #eofwowcoin#" };
+		{ 7, 31302, "", "=q4=Monster - Sword, Stratholme D3", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 8, 31603, "", "=q4=31603", "=ds=#h3#", "130 #eofwowcoin#" };	
+		{ 9, 30403, "", "=q4=Monster - Sword, Scimitar Badass (Red Glow, High)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 10, 30412, "", "=q4=Monster - Sword, Draenei B01 Blue (Low White Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 11, 30648, "", "=q4=Monster - Sword, Katana (Sharpened effect)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 12, 31311, "", "=q4=Monster - Sword1H Fire Illidari Highlord", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 13, 31612, "", "=q4=Monster - Sword, Flaming", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 14, 31806, "", "=q4=Monster - Sword, Zul'gurub 02", "=ds=#h3#", "130 #eofwowcoin#" };	
+		{ 15, 33990, "", "=q4=Monster - Zul'Aman - Sword, 1H - Halazzi", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 16, 34596, "", "=q4=Monster - Sword, 1H Blood Elf A02 Red (High Red Flame)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 17, 35117, "", "=q4=Golden Sword of Fire", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 18, 32874, "", "=q4=Monster - Black Temple - Mace, 1H - Bonechewer Taskmaster", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 19, 33984, "", "=q4=Amani'shi Protector", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 20, 34505, "", "=q4=Monster - Sword, 1H Blood Elf A03 Red - High Red Glow", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 21, 34881, "", "=q4=Blade of Searing Breath", "=ds=#h3#", "130 #eofwowcoin#" };	
+		{ 22, 35561, "", "=q4=Monster - Quest - Thassarian's Sword", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 23, 36990, "", "=q4=Monster - Sword, Scimitar Golden (Blue Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 24, 39659, "", "=q4=39659", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 25, 41177, "", "=q4=Monster - Sword, 1H Northrend D02 Grey, Deathfrost", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 26, 42920, "", "=q4=Monster - Sword, 1H Northrend B03 Black", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 27, 44162, "", "=q4=Monster - Sword, Iblis (Red particle)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 28, 38215, "", "=q4=Monster - Sword, Rapier (High Red Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 29, 40894, "", "=q4=Monster - Vrykul - Sword, 1H (Blue Glow, High)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 30, 42757, "", "=q4=Monster - Sword, Rapier (High Yellow Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 31, 42932, "", "=q4=Monster - Sword, Zul'aman 1H - D01 Dark", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 32, 45727, "", "=q4=", "=ds=#h3#", "130 #eofwowcoin#" };
+		
+		Prev = "EmblemofWoWCoinWeapon_OHSword1";
+		Next = "EmblemofWoWCoinWeapon_OHSword3";
+		Back = "EmblemofWoWCoinWeapon";
+	};	
+		
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_OHSword3"] = {
+		{ 1, 49814, "", "=q4=Monster - Sword, Scimitar Badass (Purple Glow, High)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 2, 50217, "", "=q4=Monster - Sword, 1H CoTStratholme D01", "=ds=#h3#", "130 #eofwowcoin#" };	
+		{ 3, 29406, "", "=q4=Monster - Sword, 1H Blood Elf A01 Gold - Black Glow", "=ds=#h3#", "150 #eofwowcoin#" };
+		{ 4, 32889, "", "=q4=Monster - Black Temple - Sword, 1H - Council Advisor", "=ds=#h3#", "150 #eofwowcoin#" };
+		{ 16, 43221, "", "=q4=Bone Double Dagger", "=ds=#h3#", "200 #eofwowcoin#" };
+		{ 17, 3364, "", "=q4=Violet Designer's Rage", "=ds=#h3#", "200 #eofwowcoin#" };
+		{ 18, 42933, "", "=q4=Native Sword", "=ds=#h3#", "200 #eofwowcoin#" };
+		{ 19, 2180, "", "=q4=Electric Designer's Rage", "=ds=#h3#", "200 #eofwowcoin#" };
+		{ 20, 2179, "", "=q4=Fiery Designer's Rage", "=ds=#h3#", "200 #eofwowcoin#" };
+		
+		
+		Prev = "EmblemofWoWCoinWeapon_OHSword2";
+		--Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
 	AtlasLoot_Data["EmblemofWoWCoinArmor_Cloth"] = {
 		{ 1, 3059, "", "=q4=", "=ds=#s1#, #a1#", "200 #eofwowcoin#" };
 		{ 2, 2655, "", "=q4=Windchaser's Shoulders", "=ds=#s3#, #a1#", "200 #eofwowcoin#" };
@@ -12023,12 +12154,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 1279, "", "=q4=Tyrande's Whisperwind Hoop", "=ds=#s1#, #a1#", "200 #eofwowcoin#" };
 		{ 8, 3544, "", "=q4=Tyrande's Whisperwind Gloves", "=ds=#s9#, #a1#", "200 #eofwowcoin#" };
 		
+		{ 10, 5053, "", "=q4=Vestments of Absolution", "=ds=#s5#, #a1#", "130 #eofwowcoin#" };
+		{ 11, 137, "", "=q4=Belt of Absolution", "=ds=#s10#, #a1#", "130 #eofwowcoin#" };
+		{ 12, 3150, "", "=q4=Breeches of Absolution", "=ds=#s11#, #a1#", "130 #eofwowcoin#" };
+		{ 14, 18747, "", "=q4=Item Properties Test", "=ds=#s3#, #a1#", "130 #eofwowcoin#" };
+		
 		{ 16, 1545, "", "=q4=Shoulders of Illidari High Lord", "=ds=#s3#, #a1#", "200 #eofwowcoin#" };
 		{ 17, 3538, "", "=q4=Embrace of Illidari High Lord", "=ds=#s5#, #a1#", "200 #eofwowcoin#" };
 		{ 18, 5295, "", "=q4=Gloves of Illidari High Lord", "=ds=#s9#, #a1#", "200 #eofwowcoin#" };
 		{ 19, 3523, "", "=q4=Longji of Illidari High Lord", "=ds=#s11#, #a1#", "200 #eofwowcoin#" };
 		{ 20, 3533, "", "=q4=Slippers of Illidari High Lord", "=ds=#s12#, #a1#", "200 #eofwowcoin#" };
-	
+		
+		{ 22, 1379, "", "=q4=Mantle of the Tempest", "=ds=#s3#, #a1#", "130 #eofwowcoin#" };
+		{ 23, 30718, "", "=q4=Robes of the Tempest", "=ds=#s5#, #a1#", "130 #eofwowcoin#" };
+		{ 24, 38495, "", "=q4=Gloves of the Tempest", "=ds=#s9#, #a1#", "130 #eofwowcoin#" };
+		{ 25, 3247, "", "=q4=Belt of the Tempest", "=ds=#s10#, #a1#", "130 #eofwowcoin#" };
+		
+		{ 27, 10596, "", "=q4=Oculars of Madness", "=ds=#s10#, #a1#", "200 #eofwowcoin#" };
+		
 		--Prev = "EmblemofHeroism";
 		Next = "EmblemofWoWCoinArmor_Leather";
 		Back = "EmblemofWoWCoinArmor";
@@ -12036,26 +12179,126 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	
 	
 	AtlasLoot_Data["EmblemofWoWCoinArmor_Leather"] = {
-		{ 1, 10006, "", "=q4=Assassin's Embrace", "=ds=#s5#, #a2#", "200 #eofwowcoin#" };
+		{ 1, 2994, "", "=q4=Assassin's Balaclava Helmet", "=ds=#s1#, #a2#", "200 #eofwowcoin#" };
 		{ 2, 2647, "", "=q4=Assassin's Shoulders", "=ds=#s3#, #a2#", "200 #eofwowcoin#" };
-		{ 3, 3539, "", "=q4=Assassin's Leggings", "=ds=#s11#, #a2#", "200 #eofwowcoin#" };
-
+		{ 3, 10006, "", "=q4=Assassin's Embrace", "=ds=#s5#, #a2#", "200 #eofwowcoin#" };
+		{ 4, 3546, "", "=q4=Assassin's Armbands", "=ds=#s8#, #a2#", "200 #eofwowcoin#" };
+		{ 5, 5297, "", "=q4=Assassin's Gloves", "=ds=#s9#, #a2#", "200 #eofwowcoin#" };
+		{ 6, 122, "", "=q4=Assassin's Belt", "=ds=#s10#, #a2#", "200 #eofwowcoin#" };
+		{ 7, 3539, "", "=q4=Assassin's Leggings", "=ds=#s11#, #a2#", "200 #eofwowcoin#" };
+		{ 8, 3542, "", "=q4=Assassin's Footpads", "=ds=#s12#, #a2#", "200 #eofwowcoin#" };
 		
+
 		Prev = "EmblemofWoWCoinArmor_Cloth";
-		--Next = "EmblemofWoWCoin5";
+		Next = "EmblemofWoWCoinArmor_Mail";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Mail"] = {
+		{ 1, 1684, "", "=q4=Hood of Sylvanas Windrunner", "=ds=#s1#, #a3#", "200 #eofwowcoin#" };
+		{ 2, 1432, "", "=q4=Shoulders of Sylvanas Windrunner", "=ds=#s3#, #a3#", "200 #eofwowcoin#" };
+		{ 3, 3522, "", "=q4=Breastmail of Sylvanas Windrunner", "=ds=#s5#, #a3#", "200 #eofwowcoin#" };
+		{ 4, 3535, "", "=q4=Bracers of Sylvanas Windrunner", "=ds=#s8#, #a3#", "200 #eofwowcoin#" };
+		{ 5, 3549, "", "=q4=Gloves of Sylvanas Windrunner", "=ds=#s9#, #a3#", "200 #eofwowcoin#" };
+		{ 6, 102, "", "=q4=Strap of Sylvanas Windrunner", "=ds=#s10#, #a3#", "200 #eofwowcoin#" };
+		{ 7, 3050, "", "=q4=Leggings of Sylvanas Windrunner", "=ds=#s11#, #a3#", "200 #eofwowcoin#" };
+		{ 8, 3060, "", "=q4=Boots of Sylvanas Windrunner", "=ds=#s12#, #a3#", "200 #eofwowcoin#" };
+		
+		{ 10, 2045, "", "=q4=Mask of Blood Lord Zarath", "=ds=#s1#, #a3#", "200 #eofwowcoin#" };
+		{ 11, 1508, "", "=q4=Shoulders of Blood Lord Zarath", "=ds=#s3#, #a3#", "200 #eofwowcoin#" };
+		{ 12, 3537, "", "=q4=Breastmail of Blood Lord Zarath", "=ds=#s5#, #a3#", "200 #eofwowcoin#" };
+		{ 13, 5294, "", "=q4=Gloves of Blood Lord Zarath", "=ds=#s9#, #a3#", "200 #eofwowcoin#" };
+		{ 14, 3243, "", "=q4=Leggings of Blood Lord Zarath", "=ds=#s11#, #a3#", "200 #eofwowcoin#" };
+		{ 15, 3524, "", "=q4=Boots of Blood Lord Zarath", "=ds=#s12#, #a3#", "200 #eofwowcoin#" };
+		
+		{ 16, 2038, "", "=q4=Diadem of Banshee Queen", "=ds=#s1#, #a3#", "200 #eofwowcoin#" };
+		{ 17, 1435, "", "=q4=Shoulders of Banshee Queen", "=ds=#s3#, #a3#", "200 #eofwowcoin#" };
+		{ 18, 3528, "", "=q4=Breastmail of Banshee Queen", "=ds=#s5#, #a3#", "200 #eofwowcoin#" };
+		{ 19, 3545, "", "=q4=Bracers of Banshee Queen", "=ds=#s8#, #a3#", "200 #eofwowcoin#" };
+		{ 20, 4192, "", "=q4=Gloves of Banshee Queen", "=ds=#s9#, #a3#", "200 #eofwowcoin#" };
+		{ 21, 115, "", "=q4=Strap of Banshee Queen", "=ds=#s10#, #a3#", "200 #eofwowcoin#" };
+		{ 22, 3064, "", "=q4=Leggings of Banshee Queen", "=ds=#s11#, #a3#", "200 #eofwowcoin#" };
+		{ 23, 3244, "", "=q4=Boots of Banshee Queen", "=ds=#s12#, #a3#", "200 #eofwowcoin#" };
+		
+		{ 25, 1736, "", "=q4=Beastmaster's Mantle", "=ds=#s3#, #a3#", "200 #eofwowcoin#" };
+		{ 26, 3242, "", "=q4=Beastmaster's Tunic", "=ds=#s5#, #a3#", "200 #eofwowcoin#" };
+		{ 27, 1969, "", "=q4=Beastmaster's Belt", "=ds=#s10#, #a3#", "200 #eofwowcoin#" };
+		{ 28, 3054, "", "=q4=Beastmaster's Boots", "=ds=#s12#, #a3#", "200 #eofwowcoin#" };
+		{ 30, 3232, "", "=q4=3232", "=ds=#s11#, #a3#", "200 #eofwowcoin#" };
+				
+
+		Prev = "EmblemofWoWCoinArmor_Leather";
+		Next = "EmblemofWoWCoinArmor_Plate";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
+	
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Plate"] = {
+		{ 1, 2993, "", "=q4=Helmet of Big Zokk Torquewrench", "=ds=#s1#, #a4#", "200 #eofwowcoin#" };
+		{ 2, 1960, "", "=q4=Shoulders of Big Zokk Torquewrench", "=ds=#s3#, #a4#", "200 #eofwowcoin#" };
+		{ 3, 3547, "", "=q4=Breastplate of Big Zokk Torquewrench", "=ds=#s5#, #a4#", "200 #eofwowcoin#" };
+		{ 4, 5296, "", "=q4=Gloves of Big Zokk Torquewrench", "=ds=#s9#, #a4#", "200 #eofwowcoin#" };
+		{ 5, 3532, "", "=q4=Leggings of Big Zokk Torquewrench", "=ds=#s11#, #a4#", "200 #eofwowcoin#" };
+		{ 6, 3541, "", "=q4=Boots of Big Zokk Torquewrench", "=ds=#s12#, #a4#", "200 #eofwowcoin#" };
+		
+		{ 8, 21451, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=#s10#, #a4#", "200 #eofwowcoin#" };
+		
+		{ 16, 3007, "", "=q4=Dark Warrior's Shoulders", "=ds=#s3#, #a4#", "200 #eofwowcoin#" };
+		{ 17, 12188, "", "=q4=Dark Warrior's Breastplate", "=ds=#s5#, #a4#", "200 #eofwowcoin#" };
+		{ 18, 3646, "", "=q4=Dark Warrior's Armguards", "=ds=#s8#, #a4#", "200 #eofwowcoin#" };
+		{ 19, 5298, "", "=q4=Dark Warrior's Gloves", "=ds=#s9#, #a4#", "200 #eofwowcoin#" };
+		{ 20, 126, "", "=q4=Dark Warrior's Belt", "=ds=#s10#, #a4#", "200 #eofwowcoin#" };
+		{ 21, 3548, "", "=q4=Dark Warrior's Leggings", "=ds=#s11#, #a4#", "200 #eofwowcoin#" };
+		{ 22, 4195, "", "=q4=Dark Warrior's Footpads", "=ds=#s12#, #a4#", "200 #eofwowcoin#" };
+		
+		
+		
+		
+		Prev = "EmblemofWoWCoinArmor_Mail";
+		Next = "EmblemofWoWCoinArmor_Back";
 		Back = "EmblemofWoWCoinArmor";
 	};
 	
 	AtlasLoot_Data["EmblemofWoWCoinArmor_Back"] = {
 		{ 1, 53475, "", "=q1=Cloak of the Stormwind", "=ds=#s4#", "30 #eofwowcoin#" };
 		{ 2, 53473, "", "=q1=53473", "=ds=#s4#", "30 #eofwowcoin#" };
+		{ 3, 13516, "", "=q1=Assassin's Cloak", "=ds=#s4#", "200 #eofwowcoin#" };
+		{ 4, 7248, "", "=q1=Cloak of Sylvanas Windrunner", "=ds=#s4#", "200 #eofwowcoin#" };
+		{ 5, 13472, "", "=q1=Cloak of Banshee Queen", "=ds=#s4#", "200 #eofwowcoin#" };
+		{ 6, 56975, "", "=q1=Valeera's Cloak", "=ds=#s4#", "210 #eofwowcoin#" };
 		
 
 		
-		--Prev = "EmblemofHeroism";
-		Next = "EmblemofWoWCoin5";
+		Prev = "EmblemofWoWCoinArmor_Plate";
+		Next = "EmblemofWoWCoinArmor_Misc";
 		Back = "EmblemofWoWCoinArmor";
 	};
+	
+	
+	AtlasLoot_Data["EmblemofWoWCoinArmor_Misc"] = {
+		{ 1, 56968, "", "=q4=Valeera's Hood", "=ds=#s1#", "210 #eofwowcoin#" };
+		{ 2, 56969, "", "=q4=Valeera's Shoulderpads", "=ds=#s3#", "210 #eofwowcoin#" };
+		{ 3, 56970, "", "=q4=Valeera's Robe", "=ds=#s5#", "210 #eofwowcoin#" };
+		{ 4, 56974, "", "=q4=Valeera's Gloves", "=ds=#s9#", "210 #eofwowcoin#" };
+		{ 5, 56971, "", "=q4=Valeera's Belt", "=ds=#s10#", "210 #eofwowcoin#" };
+		{ 6, 56972, "", "=q4=Valeera's Leggings", "=ds=#s11#", "210 #eofwowcoin#" };
+		{ 7, 56973, "", "=q4=Valeera's Boots", "=ds=#s12#", "210 #eofwowcoin#" };
+		
+		{ 16, 56931, "", "=q4=Scarlet Helm of Death", "=ds=#s1#", "210 #eofwowcoin#" };
+		{ 17, 56932, "", "=q4=Scarlet Death Shoulder", "=ds=#s3#", "210 #eofwowcoin#" };
+		{ 18, 56933, "", "=q4=Scarlet Death Chest", "=ds=#s5#", "210 #eofwowcoin#" };
+		{ 19, 56937, "", "=q4=Scarlet Death Gloves", "=ds=#s9#", "210 #eofwowcoin#" };
+		{ 20, 56934, "", "=q4=Scarlet Death Belt", "=ds=#s10#", "210 #eofwowcoin#" };
+		{ 21, 56935, "", "=q4=Scarlet Death Legs", "=ds=#s11#", "210 #eofwowcoin#" };
+		{ 22, 56936, "", "=q4=Scarlet Death Boots", "=ds=#s12#", "210 #eofwowcoin#" };
+		
+		Prev = "EmblemofWoWCoinArmor_Back";
+		--Next = "EmblemofWoWCoin5";
+		Back = "EmblemofWoWCoinArmor";
+	};
+	
+	
+	
 	
 	AtlasLoot_Data["EmblemofWoWCoin3"] = {
 		{ 1, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
