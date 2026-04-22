@@ -5,21 +5,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
 	AtlasLoot_Data["SETMENU"] = {
-		{ 2, "EMBLEMOFFROSTMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 3, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 4, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 5, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 6, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 7, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
-		{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-		{ 9, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
-		{ 10, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-		{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
-		{ 12, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
-		{ 13, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
-		
-		{ 14, "EMBLEMOFWOWCOINMENU", "inv_stone_02", "=ds="..AL["Upper Deck Card Game Items"], ""};
-		
+		{ 2, "EMBLEMOFWOWCOINMENU", "inv_stone_02", "=ds="..AL["WoW Circle Coin Rewards"], ""};
+		{ 3, "EMBLEMOFFROSTMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 4, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 5, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 6, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 7, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 8, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
+		{ 9, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+		{ 10, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
+		{ 11, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
+		{ 12, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
+		{ 13, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
+		{ 14, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
 		{ 15, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};
 		{ 17, "SETSMISCMENU", "INV_Sword_43", "=ds="..AL["Misc Sets"], ""};
 		{ 18, "ZGSets1", "INV_Jewelry_Necklace_19", "=ds="..AL["Zul'Gurub Sets"], ""};
@@ -87,13 +85,42 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	
 	---------------------
 	AtlasLoot_Data["EMBLEMOFWOWCOINMENU"] = {
-		{ 2, "EmblemofWoWCoin4", "inv_stone_02", "=ds="..AL["Mounts"], ""};
-		{ 3, "EmblemofWoWCoin5", "inv_stone_02", "=ds="..AL["Pets"], ""};
-		{ 4, "EmblemofWoWCoin6", "inv_stone_02", "=ds="..AL["Illusions Weapon"], ""};
-		{ 5, "EmblemofWoWCoin7", "inv_stone_02", "=ds="..AL["Misc"], ""};
-		--{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Sets"], "=q5="..AL["10/25 Man"]};
+		{ 2, "EmblemofWoWCoinWeapon", "inv_stone_02", "=ds="..BabbleInventory["Weapon"]};
+		{ 3, "EmblemofWoWCoin3", "inv_stone_02", "=ds="..AL["Shirts and Tabards"], ""};
+		{ 4, "EmblemofWoWCoin4", "inv_stone_02", "=ds="..AL["Mounts"], ""};
+		{ 17, "EmblemofWoWCoinArmor", "inv_stone_02", "=ds="..AL["Armor:"], ""};
+		{ 18, "EmblemofWoWCoin6", "inv_stone_02", "=ds="..AL["Illusions Weapon"], ""};
+		{ 19, "EmblemofWoWCoin5", "inv_stone_02", "=ds="..AL["Pets"], ""};
+		{ 20, "EmblemofWoWCoin7", "inv_stone_02", "=ds="..AL["Misc"], ""};
 		Back = "SETMENU";
 	};
+	-----------------------
+	AtlasLoot_Data["EmblemofWoWCoinArmor"] = {
+		{ 2, "EmblemofWoWCoinArmor_Cloth", "inv_stone_02", "=ds="..BabbleInventory["Cloth"]};
+		{ 3, "EmblemofWoWCoinArmor_Mail", "inv_stone_02", "=ds="..BabbleInventory["Mail"]};
+		{ 4, "EmblemofWoWCoinArmor_Back", "inv_stone_02", "=ds="..BabbleInventory["Back"]};
+		{ 17, "EmblemofWoWCoinArmor_Leather", "inv_stone_02", "=ds="..BabbleInventory["Leather"]};
+		{ 18, "EmblemofWoWCoinArmor_Plate", "inv_stone_02", "=ds="..BabbleInventory["Plate"]};
+		{ 19, "EmblemofWoWCoinArmor_Misc", "inv_stone_02",  "=ds="..AL["Misc"], ""};
+		Back = "EMBLEMOFWOWCOINMENU";
+};
+	-----------------------
+	AtlasLoot_Data["EmblemofWoWCoinWeapon"] = {
+		{ 2, "EmblemofWoWCoinWeapon_OHSword1", "inv_stone_02", "=ds="..BabbleInventory["One-Handed Swords"]};
+		{ 3, "EmblemofWoWCoinWeapon_One-Handed Axes", "inv_stone_02", "=ds="..BabbleInventory["One-Handed Axes"]};
+		{ 4, "EmblemofWoWCoinWeapon_One-Handed Maces", "inv_stone_02", "=ds="..BabbleInventory["One-Handed Maces"]};
+		{ 5, "EmblemofWoWCoinWeapon_Polearm", "inv_stone_02", "=ds="..BabbleInventory["Polearm"]};
+		{ 6, "EmblemofWoWCoinWeapon_Dagger", "inv_stone_02", "=ds="..BabbleInventory["Daggers"]};
+		{ 7, "EmblemofWoWCoinWeapon_Bows", "inv_stone_02", "=ds="..BabbleInventory["Bows"]};
+		{ 17, "EmblemofWoWCoinWeapon_Two-Handed Swords", "inv_stone_02", "=ds="..BabbleInventory["Two-Handed Swords"]};
+		{ 18, "EmblemofWoWCoinWeapon_Two-Handed Axes", "inv_stone_02", "=ds="..BabbleInventory["Two-Handed Axes"]};
+		{ 19, "EmblemofWoWCoinWeapon_Two-Handed Maces", "inv_stone_02", "=ds="..BabbleInventory["Two-Handed Maces"]};
+		{ 20, "EmblemofWoWCoinWeapon_Staff", "inv_stone_02", "=ds="..BabbleInventory["Staves"]};
+		{ 21, "EmblemofWoWCoinWeapon_Shields", "inv_stone_02", "=ds="..BabbleInventory["Shields"]};
+		{ 22, "EmblemofWoWCoinWeapon_Guns", "inv_stone_02", "=ds="..BabbleInventory["Guns"]};
+		{ 23, "EmblemofWoWCoinWeapon_Misc", "inv_stone_02",  "=ds="..AL["Misc"], ""};
+		Back = "EMBLEMOFWOWCOINMENU";
+};
 	-----------------------
 
 	AtlasLoot_Data["WORLDEPICS"] = {
