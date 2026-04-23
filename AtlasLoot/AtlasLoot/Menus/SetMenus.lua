@@ -86,12 +86,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	---------------------
 	AtlasLoot_Data["EMBLEMOFWOWCOINMENU"] = {
 		{ 2, "EmblemofWoWCoinWeapon", "inv_stone_02", "=ds="..BabbleInventory["Weapon"]};
-		{ 3, "EmblemofWoWCoin3", "inv_stone_02", "=ds="..AL["Shirts and Tabards"], ""};
-		{ 4, "EmblemofWoWCoin4", "inv_stone_02", "=ds="..AL["Mounts"], ""};
+		{ 3, "EmblemofWoWCoinShirts", "inv_stone_02", "=ds="..AL["Shirts and Tabards"], ""};
+		{ 4, "EmblemofWoWCoinMounts", "inv_stone_02", "=ds="..AL["Mounts"], ""};
 		{ 17, "EmblemofWoWCoinArmor", "inv_stone_02", "=ds="..AL["Armor:"], ""};
-		{ 18, "EmblemofWoWCoin6", "inv_stone_02", "=ds="..AL["Illusions Weapon"], ""};
-		{ 19, "EmblemofWoWCoin5", "inv_stone_02", "=ds="..AL["Pets"], ""};
-		{ 20, "EmblemofWoWCoin7", "inv_stone_02", "=ds="..AL["Misc"], ""};
+		{ 18, "EmblemofWoWCoinIllusions", "inv_stone_02", "=ds="..AL["Illusions Weapon"], ""};
+		{ 19, "EmblemofWoWCoinPets", "inv_stone_02", "=ds="..AL["Pets"], ""};
+		{ 20, "EmblemofWoWCoinMisc", "inv_stone_02", "=ds="..AL["Misc"], ""};
 		Back = "SETMENU";
 	};
 	-----------------------
