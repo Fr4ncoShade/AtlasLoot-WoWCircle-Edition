@@ -1123,12 +1123,37 @@ end
 	AtlasLoot_TableNames["EmblemofFrost2"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
 	----------------------
 -- Emblem of WoWCoin Rewards
-	AtlasLoot_TableNames["EmblemofWoWCoin4"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["EmblemofWoWCoin5"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["EmblemofWoWCoin6"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["EmblemofWoWCoin7"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["EmblemofWoWCoin2"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
+	--AtlasLoot_TableNames["EmblemofWoWCoin2"] = { AL["WoW Circle Coin Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinShirts"] = { AL["Shirts and Tabards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinIllusions"] = { AL["Illusions for weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinMounts"] = { AL["Mounts"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinPets"] = { AL["Pets"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinMisc"] = { AL["Misc"], "AtlasLootWotLK" };
 	----------------------
+	--AtlasLoot_TableNames["EmblemofWoWCoinArmor_Cloth"] = { AL["WoW Circle Coin Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Cloth"] = { BabbleInventory["Cloth"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Leather"] = { BabbleInventory["Leather"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Mail"] = { BabbleInventory["Mail"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Plate"] = { BabbleInventory["Plate"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Back"] = { BabbleInventory["Back"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor_Misc"] = { AL["Misc"], "AtlasLootWotLK" };
+	----------------------
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Dagger"] = { BabbleInventory["Daggers"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Staff"] = { BabbleInventory["Staves"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_OHSword1"] = { BabbleInventory["One-Handed Swords"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_OHSword2"] = { BabbleInventory["One-Handed Swords"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_OHSword3"] = { BabbleInventory["One-Handed Swords"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Two-Handed Swords"] = { BabbleInventory["Two-Handed Swords"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Shields"] = { BabbleInventory["Shields"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Polearm"] = { BabbleInventory["Polearm"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_One-Handed Maces"] = { BabbleInventory["One-Handed Maces"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Two-Handed Maces"] = { BabbleInventory["Two-Handed Maces"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_One-Handed Axes"] = { BabbleInventory["One-Handed Axes"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Two-Handed Axes"] = { BabbleInventory["Two-Handed Axes"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Bows"] = { BabbleInventory["Bows"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Guns"] = { BabbleInventory["Guns"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon_Misc"] = { AL["Misc"], "AtlasLootWotLK" };
+	
   -- Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
@@ -1791,7 +1816,9 @@ end
 	AtlasLoot_TableNames["EMBLEMOFCONQUESTMENU"] = { AL["Emblem of Conquest Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFFROSTMENU"] = { AL["Emblem of Frost Rewards"], "Menu" };
 	----------------
-	AtlasLoot_TableNames["EMBLEMOFWOWCOINMENU"] = { AL["Emblem of Frost Rewards"], "Menu" };
+	AtlasLoot_TableNames["EMBLEMOFWOWCOINMENU"] = { AL["WoW Circle Coin Rewards"], "Menu" };
+	AtlasLoot_TableNames["EmblemofWoWCoinArmor"] = { AL["WoW Circle Coin Rewards"], "Menu" };
+	AtlasLoot_TableNames["EmblemofWoWCoinWeapon"] = { AL["WoW Circle Coin Rewards"], "Menu" };
 	-----------------
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };
