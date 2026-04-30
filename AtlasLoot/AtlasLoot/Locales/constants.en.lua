@@ -53,6 +53,7 @@ if AL then
 	AL["Reset Quicklooks"] = true;
 	AL["Select a Loot Table..."] = true;
 	AL["OR"] = true;
+	AL["and"] = true;
 	AL["FuBar Options"] = true;
 	AL["Attach to Minimap"] = true;
 	AL["Hide FuBar Plugin"] = true;
@@ -150,6 +151,8 @@ if AL then
 	AL["Emblem of Conquest Rewards"] = true;
 	AL["Emblem of Triumph Rewards"] = true;
 	AL["Emblem of Frost Rewards"] = true;
+	AL["WoW Circle Coin Rewards"] = true;
+	AL["Illusions for weapons"] = true;
 	AL["BoE World Epics"] = true;
 	AL["Dungeon 1/2 Sets"] = true;
 	AL["Dungeon 3 Sets"] = true;
@@ -163,6 +166,7 @@ if AL then
 	AL["Ruins of Ahn'Qiraj Sets"] = true;
 	AL["Temple of Ahn'Qiraj Sets"] = true;
 	AL["Tabards"] = true;
+	AL["Shirts and Tabards"] = true;
 	AL["Tier 1/2 Sets"] = true;
 	AL["Tier 1/2/3 Sets"] = true;
 	AL["Tier 3 Sets"] = true;

@@ -52,6 +52,7 @@ if AL then
     AL["Reset Quicklooks"] = "Сборс БО";
     AL["Select a Loot Table..."] = "Выберите таблицу добычи";
     AL["OR"] = "или";
+	AL["and"] = "и";
     AL["FuBar Options"] = "Опции FuBarа";
     AL["Attach to Minimap"] = "Закрепить у мини-карты";
     AL["Hide FuBar Plugin"] = "Скрыть плагин FuBarа";
@@ -149,6 +150,8 @@ if AL then
     AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
 	AL["Emblem of Triumph Rewards"] = "Награды за эмблемы триумфа";
 	AL["Emblem of Frost Rewards"] = "Награды за эмблемы льда";
+	AL["WoW Circle Coin Rewards"] = "Награды за WoW Circle Coin";
+	AL["Illusions for weapons"] = "Иллюзии для оружия";
     AL["BoE World Epics"] = "Мировые превосходные ПпП";
 	AL["Dungeon 1/2 Sets"] = "Комплекты: Подземелья 1/2";
 	AL["Dungeon 3 Sets"] = "Комплекты: Подземелья 3";
@@ -162,6 +165,7 @@ if AL then
     AL["Ruins of Ahn'Qiraj Sets"] = "Комплекты из Руин Ан'Киража";
     AL["Temple of Ahn'Qiraj Sets"] = "Комплекты из Храма Ан'Киража";
     AL["Tabards"] = "Накидки";
+	AL["Shirts and Tabards"] = "Рубашки и гербовые накидки";
     AL["Tier 1/2 Sets"] = "Комплекты: Тир 1/2";
     AL["Tier 1/2/3 Sets"] = "Комплекты: Тир 1/2/3";
     AL["Tier 3 Sets"] = "Комплект Тира 3";
