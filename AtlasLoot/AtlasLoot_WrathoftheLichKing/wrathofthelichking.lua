@@ -12013,42 +12013,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 	---------------------------------
-	AtlasLoot_Data["EmblemofWoWCoinWeapon_Dagger"] = {
-		{ 1, 32923, "", "=q4=Energy Dagger", "=ds=#h1#", "30 #eofwowcoin#" };
-		{ 2, 45985, "", "=q4=Star Blade", "=ds=#h1#", "130 #eofwowcoin#" };
-		{ 16, 43598, "", "=q4=Fiery Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
-		{ 17, 43479, "", "=q4=Isteel Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
 
-		
-		--Prev = "EmblemofWoWCoinArmor_Back";
-		--Next = "EmblemofWoWCoin5";
-		Back = "EmblemofWoWCoinWeapon";
-	};
-	
-	AtlasLoot_Data["EmblemofWoWCoinWeapon_Staff"] = {
-		{ 1, 52033, "", "=q3=Unknow Item", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 2, 39746, "", "=q4=Northrend Staff", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 3, 43014, "", "=q4=43014", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 4, 36869, "", "=q4=36869", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 5, 35714, "", "=q4=35714", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 6, 13722, "", "=q4=Purple Flame Demon Skull Staff", "=ds=#w9#", "30 #eofwowcoin#" };
-		{ 7, 33983, "", "=q4=33983", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 8, 34882, "", "=q4=34882", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 16, 39750, "", "=q4=39750", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 17, 43227, "", "=q4=43227", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 18, 35781, "", "=q4=Bright Staff of the Aristocrat", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 19, 41090, "", "=q4=Monster - Zul'Aman - Staff, 2H, Drakuru Prophet", "=ds=#w9#", "130 #eofwowcoin#" };
-		{ 20, 43619, "", "=q4=Red Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
-		{ 21, 43617, "", "=q4=Blue Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
-		{ 22, 43618, "", "=q4=Green Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
-		{ 23, 39289, "", "=q4=Staff of Geometry", "=ds=#w9#", "200 #eofwowcoin#" };
-		
-
-		--Prev = "EmblemofWoWCoinArmor_Back";
-		--Next = "EmblemofWoWCoin5";
-		Back = "EmblemofWoWCoinWeapon";
-	};
-	
 	AtlasLoot_Data["EmblemofWoWCoinWeapon_OHSword1"] = {
 		{ 1, 52034, "", "=q3=Monster - Sword 1H, Icecrown Citadel (Sunfire Enchant)", "=ds=#h3#", "30 #eofwowcoin#" };
 		{ 2, 53835, "", "=q4=Shining Vol'jin Glaive", "=ds=#h3#", "30 #eofwowcoin#" };
@@ -12082,8 +12047,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 29542, "", "=q4=Monster - Sword, Horde Sword B04 Black (Red Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
 		{ 31, 25879, "", "=q4=Monster - Sword2H, Doom Walker", "=ds=#h3#", "130 #eofwowcoin#" };
 		{ 32, 29403, "", "=q4=Blood Elf Blade", "=ds=#h3#", "130 #eofwowcoin#" };
-		
-		--Prev = "EmblemofWoWCoinArmor_Back";
 		Next = "EmblemofWoWCoinWeapon_OHSword2";
 		Back = "EmblemofWoWCoinWeapon";
 	};		
@@ -12121,7 +12084,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 42757, "", "=q4=Monster - Sword, Rapier (High Yellow Glow)", "=ds=#h3#", "130 #eofwowcoin#" };
 		{ 31, 42932, "", "=q4=Monster - Sword, Zul'aman 1H - D01 Dark", "=ds=#h3#", "130 #eofwowcoin#" };
 		{ 32, 45727, "", "=q4=", "=ds=#h3#", "130 #eofwowcoin#" };
-		
 		Prev = "EmblemofWoWCoinWeapon_OHSword1";
 		Next = "EmblemofWoWCoinWeapon_OHSword3";
 		Back = "EmblemofWoWCoinWeapon";
@@ -12137,10 +12099,176 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 42933, "", "=q4=Native Sword", "=ds=#h3#", "200 #eofwowcoin#" };
 		{ 19, 2180, "", "=q4=Electric Designer's Rage", "=ds=#h3#", "200 #eofwowcoin#" };
 		{ 20, 2179, "", "=q4=Fiery Designer's Rage", "=ds=#h3#", "200 #eofwowcoin#" };
-		
-		
 		Prev = "EmblemofWoWCoinWeapon_OHSword2";
-		--Next = "EmblemofWoWCoin5";
+		Next = "EmblemofWoWCoinWeapon_Two-Handed Swords";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Two-Handed Swords"] = {
+		{ 1, 45926, "", "=q4=Ideal of Creators", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 2, 32614, "", "=q4=Figured Blade", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 3, 32603, "", "=q4=Whirlpool of Blue Fire", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 4, 32934, "", "=q4=Blood Magic Blade and Storm", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 5, 30714, "", "=q4=Purple Cleaver", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 16, 42547, "", "=q4=Huge Moonsteel Sword", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 17, 28125, "", "=q4=Molten Sword of Vazruden", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 18, 12889, "", "=q3=Orc Scimitar", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 19, 13623, "", "=q4=Sword of Blue Flame With a Skull", "=ds=#h2#", "30 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_OHSword3";
+		Next = "EmblemofWoWCoinWeapon_One-Handed Axes";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_One-Handed Axes"] = {
+		{ 1, 29708, "", "=q4=Azure Glowing Hatchet", "=ds=#h1#", "30 #eofwowcoin#" };
+		{ 2, 29710, "", "=q4=Solar Axe", "=ds=#h1#", "30 #eofwowcoin#" };
+		{ 3, 34526, "", "=q4=Icy Crest", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 4, 21129, "", "=q4=21129", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 5, 21465, "", "=q4=21465", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 6, 30180, "", "=q4=Monster - Axe, 1H Kor'kron Defender (D02 Wolf)", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 16, 5598, "", "=q4=5598", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 17, 33981, "", "=q4=33981", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 18, 34637, "", "=q4=34637", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 19, 33171, "", "=q4=33171", "=ds=#h1#", "130 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Two-Handed Swords";
+		Next = "EmblemofWoWCoinWeapon_Two-Handed Axes";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Two-Handed Axes"] = {
+		{ 1, 53963, "", "=q3=Gurubashi's Toothed Axe", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 2, 48949, "", "=q4=Two-hand axe! 48949", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 3, 43111, "", "=q4=Two-hand axe! 43111", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 4, 44227, "", "=q4=44227", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 5, 43008, "", "=q4=Axe of Alliance Honor", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 16, 44924, "", "=q4=Sun-Lute of the Phoenix King", "=ds=#h2#", "40 #eofwowcoin#" };
+		{ 17, 21580, "", "=q4=Horde Axe of Green Omen", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 18, 31604, "", "=q4=Sapphire Rock", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 19, 50221, "", "=q4=50221", "=ds=#h2#", "130 #eofwowcoin#" };
+		{ 20, 30178, "", "=q4=30178", "=ds=#h2#", "130 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_One-Handed Axes";
+		Next = "EmblemofWoWCoinWeapon_One-Handed Maces";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+		AtlasLoot_Data["EmblemofWoWCoinWeapon_One-Handed Maces"] = {
+		{ 1, 52037, "", "=q3=Monster - Mace, Bloodqueen - D01", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 2, 52042, "", "=q3=Blood Hammer", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 3, 45900, "", "=q4=Thorim's Weapon", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 4, 42759, "", "=q4=Lightning Working Wrench", "=ds=#h3#", "30 #eofwowcoin#" };
+		{ 5, 4996, "", "=q4=Doomhammer", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 16, 40598, "", "=q4=40598", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 17, 45726, "", "=q4=Crushing Staff of Dalaran", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 18, 30261, "", "=q4=Monster - Mace2H, Draenei A01 Olive (Red Flame)", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 19, 42764, "", "=q4=", "=ds=#h3#", "130 #eofwowcoin#" };
+		{ 20, 49358, "", "=q4=Monster - Mace, Tauren Spiked (Lightning)", "=ds=#h3#", "130 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Two-Handed Axes";
+		Next = "EmblemofWoWCoinWeapon_Two-Handed Maces";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Two-Handed Maces"] = {
+		{ 1, 50758, "", "=q3=Monster - Mace2H, Toravon (Enchanted)", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 2, 50756, "", "=q3=Unknow Item 50756", "=ds=#h2#", "30 #eofwowcoin#" };
+		{ 3, 1117, "", "=q4=Gleaming Tree Hammer", "=ds=#h2#", "130 #eofwowcoin#" };
+		{ 16, 33979, "", "=q4=33979", "=ds=#h2#", "130 #eofwowcoin#" };
+		{ 17, 14084, "", "=q4=Cairne's Giant Totem", "=ds=#h2#", "130 #eofwowcoin#" };
+		{ 18, 50757, "", "=q4=50757", "=ds=#h2#", "130 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_One-Handed Maces";
+		Next = "EmblemofWoWCoinWeapon_Polearm";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Polearm"] = {
+		{ 1, 53477, "", "=q4=Normalized Nexus Polearm", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 2, 45081, "", "=q4=45081", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 3, 49353, "", "=q4=Dragon Slayer's Fire Halberd", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 4, 43477, "", "=q4=Nexus Polearm", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 5, 40607, "", "=q4=40607", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 6, 32184, "", "=q4=Chancellor's Painsaw", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 7, 32924, "", "=q4=Magtheridon's Weapon", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 16, 31274, "", "=q4=Green Flame Blade", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 17, 20412, "", "=q4=Arcane Glaive", "=ds=#w7#", "30 #eofwowcoin#" };
+		{ 18, 38609, "", "=q4=Monster - Polearm, Aspects (Orange)", "=ds=#w7#", "130 #eofwowcoin#" };
+		{ 19, 47505, "", "=q4=47505", "=ds=#w7#", "130 #eofwowcoin#" };
+		{ 20, 45884, "", "=q4=Golden Glaive of Vengeance", "=ds=#w7#", "130 #eofwowcoin#" };		
+		{ 21, 28365, "", "=q4=Double-edged Glaive", "=ds=#w7#", "200 #eofwowcoin#" };
+		{ 22, 32507, "", "=q4=Teron's Twilight Destroyer", "=ds=#w7#", "200 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Two-Handed Maces";
+		Next = "EmblemofWoWCoinWeapon_Staff";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Staff"] = {
+		{ 1, 52033, "", "=q3=Unknow Item", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 2, 39746, "", "=q4=Northrend Staff", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 3, 43014, "", "=q4=43014", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 4, 36869, "", "=q4=36869", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 5, 35714, "", "=q4=35714", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 6, 13722, "", "=q4=Purple Flame Demon Skull Staff", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 7, 32605, "", "=q4=Bloodcaster's Staff", "=ds=#w9#", "30 #eofwowcoin#" };
+		{ 8, 33983, "", "=q4=33983", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 9, 34882, "", "=q4=34882", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 16, 39750, "", "=q4=39750", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 17, 43227, "", "=q4=43227", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 18, 35781, "", "=q4=Bright Staff of the Aristocrat", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 19, 41090, "", "=q4=Monster - Zul'Aman - Staff, 2H, Drakuru Prophet", "=ds=#w9#", "130 #eofwowcoin#" };
+		{ 20, 43619, "", "=q4=Red Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 21, 43617, "", "=q4=Blue Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 22, 43618, "", "=q4=Green Note Staff", "=ds=#w9#", "200 #eofwowcoin#" };
+		{ 23, 39289, "", "=q4=Staff of Geometry", "=ds=#w9#", "200 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Polearm";
+		Next = "EmblemofWoWCoinWeapon_Dagger";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+		AtlasLoot_Data["EmblemofWoWCoinWeapon_Dagger"] = {
+		{ 1, 32923, "", "=q4=Energy Dagger", "=ds=#h1#", "30 #eofwowcoin#" };
+		{ 2, 32929, "", "=q4=Spiritual Dagger of Afrasiabi", "=ds=#h1#", "30 #eofwowcoin#" };
+		{ 16, 45985, "", "=q4=Star Blade", "=ds=#h1#", "130 #eofwowcoin#" };
+		{ 17, 43598, "", "=q4=Fiery Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
+		{ 18, 43479, "", "=q4=Isteel Dagger", "=ds=#h1#", "200 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Staff";
+		Next = "EmblemofWoWCoinWeapon_Shields";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Shields"] = {
+		{ 1, 53891, "", "=q4=Monster - Shield, Zulaman (Blue)", "=ds=#w8#", "30 #eofwowcoin#" };		
+		Prev = "EmblemofWoWCoinWeapon_Dagger";
+		Next = "EmblemofWoWCoinWeapon_Bows";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+		
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Bows"] = {
+		{ 1, 5260, "", "=q4=Winged Bow", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 2, 32730, "", "=q4=Outland Ghost Bow", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 3, 34274, "", "=q4=34274", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 4, 14118, "", "=q4=14118", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 5, 34280, "", "=q4=Crimson Seer's Bow", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 16, 42140, "", "=q4=42140", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 17, 34277, "", "=q4=34277", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 18, 37249, "", "=q4=Green Eye Bow", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 19, 42775, "", "=q4=42775", "=ds=#w2#", "130 #eofwowcoin#" };
+		{ 20, 37919, "", "=q4=Composite Blade Bow", "=ds=#w2#", "200 #eofwowcoin#" };
+		{ 21, 43224, "", "=q4=Dragonclaw Bow", "=ds=#w2#", "200 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Shields";
+		Next = "EmblemofWoWCoinWeapon_Guns";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Guns"] = {
+		{ 1, 35805, "", "=q4=35805", "=ds=#w5#", "130 #eofwowcoin#" };
+		{ 2, 44715, "", "=q4=44715", "=ds=#w5#", "130 #eofwowcoin#" };
+		{ 16, 41613, "", "=q4=41613", "=ds=#w5#", "130 #eofwowcoin#" };
+		{ 17, 46998, "", "=q4=46998", "=ds=#w5#", "130 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinWeapon_Bows";
+		Next = "EmblemofWoWCoinWeapon_Misc";
+		Back = "EmblemofWoWCoinWeapon";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinWeapon_Misc"] = {
+		Prev = "EmblemofWoWCoinWeapon_Guns";
 		Back = "EmblemofWoWCoinWeapon";
 	};
 	
@@ -12300,7 +12428,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	
 	
 	
-	AtlasLoot_Data["EmblemofWoWCoin3"] = {
+	AtlasLoot_Data["EmblemofWoWCoinShirts"] = {
 		{ 1, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
 		{ 2, 34158, "", "=q1=Team A Tabard", "=ds=#s7#, 8 #eofwowcoin#" };
 		{ 3, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#, 8 #eofwowcoin#" };
@@ -12329,38 +12457,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 27, 20274, "", "=q3=Black Small Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
 		{ 28, 20309, "", "=q3=Blue Small Tattoo of Hakkar", "=ds=#s6#, 200 #eofwowcoin#" };
 		{ 29, 56989, "", "=q3=Valeera's Shirt", "=ds=#s6#, 210 #eofwowcoin#" };
-
-		--Prev = "EmblemofHeroism";
-		Next = "EmblemofWoWCoin4";
+		Next = "EmblemofWoWCoinIllusions";
 		Back = "EMBLEMOFWOWCOINMENU";
 	};
 	
-	
-	AtlasLoot_Data["EmblemofWoWCoin4"] = {
-		{ 1, 27853, "", "=q4=Reins of the Battle Raptor", "=ds=#e12#", "40 #eofwowcoin#" };
-		{ 2, 43957, "", "=q4=Reins of the Mini Elephant", "=ds=#e12#", "40 #eofwowcoin#" };
-		{ 3, 20221, "", "=q5=Foror's Fabled Steed", "=ds=#e12#", "40 #eofwowcoin#" };
-		{ 4, 46891, "", "=q4=Reins of the Swift Purple Spectral Tiger", "=ds=#e12#", "40 #eofwowcoin#" };
-		{ 5, 49659, "", "=q4=Reins of the Risen Gryphon", "=ds=#e12#", "40 #eofwowcoin#" };
-		{ 6, 28289, "", "=q4=Reins of the Har'koa", "=ds=#e12#", "40 #eofwowcoin#" };
-		
-		--Prev = "EmblemofHeroism";
-		Next = "EmblemofWoWCoin5";
-		Back = "EMBLEMOFWOWCOINMENU";
-	};
-	
-	AtlasLoot_Data["EmblemofWoWCoin5"] = {
-		{ 1, 49664, "", "=q3=Enchanted Purple Jade", "=ds=#e13#", "8 #eofwowcoin#" };
-		{ 2, 46894, "", "=q3=Enchanted Jade", "=ds=#e13#", "8 #eofwowcoin#" };
-		{ 3, 38612, "", "=q4=Snowy Owl", "=ds=#e13#", "90 #eofwowcoin#" };
-		
-		Prev = "EmblemofWoWCoin4";
-		Next = "EmblemofWoWCoin6";
-		Back = "EMBLEMOFWOWCOINMENU";
-	};
-	
-	
-	AtlasLoot_Data["EmblemofWoWCoin6"] = {
+	AtlasLoot_Data["EmblemofWoWCoinIllusions"] = {
 		{ 1, 56922, "inv_scroll_03", "=q3=Weapon Illusion - Frostbrand", "=ds=#ud44#", "8 #eofwowcoin#" };
 		{ 2, 56921, "inv_scroll_03", "=q3=Weapon Illusion - Flametongue", "=ds=#ud44#", "8 #eofwowcoin#" };
 		{ 3, 56928, "inv_scroll_03", "=q3=Weapon Illusion - Healing", "=ds=#ud44#", "8 #eofwowcoin#" };
@@ -12373,15 +12474,35 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 56917, "inv_scroll_03", "=q3=Weapon Illusion - Rune of Razorice", "=ds=#ud44#", "8 #eofwowcoin#" };
 		{ 19, 56925, "inv_scroll_03", "=q3=Weapon Illusion - Consecrated Weapon", "=ds=#ud44#", "8 #eofwowcoin#" };
 		{ 20, 56924, "inv_scroll_03", "=q3=Weapon Illusion - Windfury", "=ds=#ud44#", "8 #eofwowcoin#" };
-		{ 21, 56923, "inv_scroll_03", "=q3=Weapon Illusion - Rockbiter", "=ds=#ud44#", "8 #eofwowcoin#" };
-
-	
-		Prev = "EmblemofWoWCoin5";
-		Next = "EmblemofWoWCoin7";
+		{ 21, 56923, "inv_scroll_03", "=q3=Weapon Illusion - Rockbiter", "=ds=#ud44#", "8 #eofwowcoin#" };	
+		Prev = "EmblemofWoWCoinShirts";
+		Next = "EmblemofWoWCoinMounts";
 		Back = "EMBLEMOFWOWCOINMENU";
 	};
 	
-	AtlasLoot_Data["EmblemofWoWCoin7"] = {
+	AtlasLoot_Data["EmblemofWoWCoinMounts"] = {
+		{ 1, 27853, "", "=q4=Reins of the Battle Raptor", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 2, 43957, "", "=q4=Reins of the Mini Elephant", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 3, 20221, "", "=q5=Foror's Fabled Steed", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 4, 46891, "", "=q4=Reins of the Swift Purple Spectral Tiger", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 5, 49659, "", "=q4=Reins of the Risen Gryphon", "=ds=#e12#", "40 #eofwowcoin#" };
+		{ 6, 28289, "", "=q4=Reins of the Har'koa", "=ds=#e12#", "40 #eofwowcoin#" };
+		
+		Prev = "EmblemofWoWCoinIllusions";
+		Next = "EmblemofWoWCoinPets";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+	
+	AtlasLoot_Data["EmblemofWoWCoinPets"] = {
+		{ 1, 49664, "", "=q3=Enchanted Purple Jade", "=ds=#e13#", "8 #eofwowcoin#" };
+		{ 2, 46894, "", "=q3=Enchanted Jade", "=ds=#e13#", "8 #eofwowcoin#" };
+		{ 3, 38612, "", "=q4=Snowy Owl", "=ds=#e13#", "90 #eofwowcoin#" };
+		Prev = "EmblemofWoWCoinMounts";
+		Next = "EmblemofWoWCoinMisc";
+		Back = "EMBLEMOFWOWCOINMENU";
+	};
+		
+	AtlasLoot_Data["EmblemofWoWCoinMisc"] = {
 		{ 1, 54218, "", "=q1=Landro's Gift Box", "=ds=#ud44#", "20 #eofwowcoin#" };
 		{ 2, 45705, "", "=q3=Argent Tournament Invitation", "=ds=#ud44#", "8 #eofwowcoin#" };
 		{ 3, 44866, "", "=q3=Brazie's Gnomish Pleasure Device", "=ds=#ud44#", "8 #eofwowcoin#" };
@@ -12399,9 +12520,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 46779, "", "=q1=Path of Cenarius", "=ds=#ud36#", "8 #eofwowcoin#" };
 		{ 22, 38233, "", "=q1=Path of Illidan", "=ds=#ud24#", "8 #eofwowcoin#" };
 		{ 23, 33081, "", "=q1=Voodoo Skull", "=ds=#ud44#", "8 #eofwowcoin#" };
-		
-	
-		Prev = "EmblemofWoWCoin6";
-		--Next = "EmblemofFrost2";
+		Prev = "EmblemofWoWCoinPets";
 		Back = "EMBLEMOFWOWCOINMENU";
 	};
